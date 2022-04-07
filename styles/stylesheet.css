@@ -1,0 +1,104 @@
+body{
+  font-family: arial,sans-serif;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: #444444;
+}
+
+h2{
+  color:  #03a3df;
+}
+
+h3{
+  color: #1b447f;
+}
+
+header {
+ background-color: #03a3df;
+ padding: 30px;
+
+}
+
+nav {
+  display: flex;
+ flex-flow: row wrap;
+ justify-content: flex-end;
+
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+nav a:hover {
+  background: #1b447f;
+}
+
+aside {
+ display: flex;
+ flex-flow: column;
+
+}
+
+.instructors {
+  display: block;
+  text-align: center;
+}
+.about {
+  display: grid;
+  text-align: center;
+}
+
+video {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.sidebar img {
+  width: 70%;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+}
+
+
+header, footer {
+  grid-column: 1 / 4;
+}
+
+
+footer {
+  background-image: url("/images/footerImage.jpg");
+  padding: 50px;
+}
+
+footer > p{
+  color: white;
+}
+
+.Nondiscriminatory, .copyright {
+  font-size: 8px;
+  width: 70%;
+  justify-self: center;
+  padding-top: 1em;
+  font-style: italic;
+}
+
+footer > nav {
+  padding-top: 1em;
+}
