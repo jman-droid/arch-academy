@@ -1,24 +1,46 @@
 body{
   font-family: arial,sans-serif;
+}
 
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
 
+.hidden:focus {
+  left: 0;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 a {
   text-decoration: none;
   color: white;
 }
-
+main {
+  margin: 3rem;
+}
 p {
   color: #444444;
+  padding: .5rem;
 }
 
 h2{
   color:  #03a3df;
+  padding: .5rem;
 }
 
 h3{
   color: #1b447f;
+  padding: .5rem;
 }
 
 header {
@@ -39,6 +61,8 @@ nav a {
   display: block;
   padding: 1em;
   color: white;
+  margin: 3rem;
+  padding: 1rem;
 }
 
 nav a:hover {
@@ -92,11 +116,10 @@ footer > p{
 }
 
 .Nondiscriminatory, .copyright {
-  font-size: 8px;
-  width: 70%;
-  justify-self: center;
-  padding-top: 1em;
+  padding: 1rem;
+  width: 60%;
   font-style: italic;
+
 }
 
 footer > nav {
